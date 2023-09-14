@@ -1,3 +1,1 @@
-console.log("Some Programming Languages:");
-
-console.log("Python\nJavaScript\nJava\nC#\nSwift");
+console.log(2**2**3*3)
