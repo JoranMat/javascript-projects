@@ -40,7 +40,7 @@ else if(totalMassKg > 850000)
 
 // add logic below to verify the fuel temperature is within the appropriate range of -150 and -300
 
-else if(fuelTempCelsius > -150 || fuelTempCelsius <-300)
+else if(fuelTempCelsius > maximumFuelTemp || fuelTempCelsius < minimumFuelTemp)
 {
     preparedForLiftOff = false;
 }
